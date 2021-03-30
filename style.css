@@ -1,0 +1,131 @@
+/* style.css for dice.html 
+      by: PJ Sheldon; 
+        10/18/20           */
+/* overall page styling */
+* {
+	font-family: Arial, venanda, sans-serif;
+}
+/* body styling */
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* page title styling */
+#header {
+	text-align: center;
+}
+/* player section styling */
+.player {
+	margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+/* computer section styling  */
+.computer {
+	margin: auto;
+	width: 30%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+}
+
+/* dice styling */
+.dice {
+	float: left;
+	width: 32px;
+	background: #f5f5f5;
+	border: #999 1px solid;
+	padding: 10px;
+	font-size: 24px;
+	text-align: center;
+	margin: 5px;
+}
+
+/* score display boxes */
+.score {
+	float: left;
+	width: 32px;
+	background: #f5f5f5;
+	border: #999 1px solid;
+	padding: 10px;
+	font-size: 24px;
+	text-align: center;
+	margin: 5px;
+}
+
+/* roll dice section styling */
+div.button1 {
+	margin: auto;
+	width: 30%;
+	padding: 30px;
+	position: relative;
+}
+
+/* roll dice button styling */
+#rollDice {
+	background-color: green;
+	margin: 0;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+/* rest button section styling */
+div.button2 {
+	margin: auto;
+	width: 30%;
+	padding: 10px;
+	position: relative;
+}
+
+/* reset button styling */
+#reset {
+	background-color: red;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	float: left;
+}
+
+/* winner section styling */
+div.winner {
+	margin: auto;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+/* overal section scoring stlying */
+div.parent {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* play score section styling */
+.playerScore {
+	margin: auto;
+	width: 15%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+}
+
+/* computer score section styling */
+.computerScore {
+	margin: auto;
+	width: 15%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+}

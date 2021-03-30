@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!-- Week 7 Programming Lab "Dice.HTML"
+	         Date - 10/18/20 
+	    By: Patrick "PJ" Sheldon -->
+<head>
+	<title>Roll The Dice!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">           <!-- CSS style sheet -->
+	<script type="text/javascript" src="dice_script.js"></script>      <!-- Javascript coding -->
+</head>
+<body>
+	<h1 id="header">Dice Game</h1>                                     <!-- Title on page -->
+	<div class="player">                                               <!-- human player section -->
+		<h2 id="playersDice">Player's Dice</h2>                        <!-- Players dice title -->
+		<div id="die1" class="dice">0</div>                            <!-- player's first dice with place holder number of zero -->
+		<div id="die2" class="dice">0</div>                            <!-- Player's second dice with a place holder of zero -->
+		<h3 id="playerStatus">Press Roll Dice to Play! Good Luck!</h3> <!-- the status of rolled dice with placeholder explaind hot to play -->
+	</div>
+	<div class="computer">                                             <!-- computer player section -->
+		<h2 id="compDice">Computer's Dice</h2>                         <!-- computer dice title -->
+		<div id="die3" class="dice">0</div>                            <!-- computer'ss first dice with a place holder of zero -->
+		<div id="die4" class="dice">0</div>                            <!-- computer's second dice with -->
+		<h3 id="computerStatus">Play Against the Computer</h3>         <!-- the status of the computer's rolled dice with a placeholder text -->
+	</div>
+	<div class="button1">                                              <!-- rolldice button section for styling -->
+		<button onclick="rolldice()" id="rollDice">Roll Dice</button>  <!-- roll dice button with roll dice fuction Javascrpt to play game -->
+	</div>
+	<div class="button2">                                              <!-- reset button section for styling -->
+		<button onclick="resetBar()" id="reset">Reset</button>         <!-- reset button with reset fuction for quiting the game or starting over -->
+	</div>
+	<div class="winner">                                               <!-- stying section for winner of the round -->
+		<h3 id="winnerStatus">Watch the Scores Below and Right Here For Who Wins Each Round</h3><!-- status of the winner of each round with placeholder -->
+	</div>
+	<div class="parent">                                               <!-- the stylings ection for ths scores to be side by side -->
+		<div class="playerScore">                                      <!-- styling section for player scoring -->
+			<h3 id="pScoreTitle">Player's Score</h3>                   <!-- player's score title -->
+			<div id="pScore" class="score">0</div>                     <!-- player's score that is displays score after each round with place holder -->
+		</div>
+		<div class="computerScore">                                    <!-- styling section for computer score -->
+			<h3 id="compScoreTitle">Computer's Score</h3>              <!-- computer's score title -->
+			<div id="compScore" class="score">0</div>                  <!-- computer's score being displayed after each round with plac holder -->
+		</div>
+	</div>
+	
+</body>
+</html>
